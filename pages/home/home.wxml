@@ -1,0 +1,5 @@
+<view>
+  <!-- 两重大括号表示js脚本 -->
+  <text class="title">now {{name}} </text>  
+  <button capture-bind:tap="buttonHandler">点击</button>
+</view>
